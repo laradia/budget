@@ -1,0 +1,102 @@
+body {
+    background: rgb(255,245,250);
+    background: linear-gradient(56deg, rgba(255,245,250,1) 0%, rgba(236,245,246,1) 99%);}
+
+    .menu{
+        height: 80px;
+        width: 100%;;
+        background-color: black;
+        margin-left: 0px;
+        box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+        margin: 0;
+      }    
+ 
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+  
+ i{
+   font-size:24px;
+    cursor: pointer;
+    margin-left: 25px;
+    border: none;
+    color: white;
+    background-color:black;
+    fill: black;
+    margin-top: 20px;
+  
+
+   
+ }
+ 
+ .btn_home{
+   
+   background-color: black;
+    border: none;
+    padding: 0px;
+    color:black;
+    margin-left: 50px;
+    margin-top: 20px;
+   
+   
+ }
+ h1,.out,.btn_chart,.btn_home{
+   display:inline-block;
+ }
+
+ .out{
+   background-color: transparent;
+   color: white;
+   margin-left: 1080px;
+   border: 0;
+   cursor: pointer;
+   padding: 0;
+   font-weight: bold;
+ }
+ .btn_chart{
+   background-color: transparent;
+   border: none;
+   padding: 0px;
+   color:white;
+  margin-left: 100px; 
+
+ }
+
+ h1{
+   margin-left: 200px;
+ }
+p{
+   margin-left: 200px;
+}
+input{
+
+   width: 350px;
+   height: 50px;
+   border-radius: 8px;
+   border:none;
+   margin-left: 20px;
+}
+.info{
+   margin-left: 200px;
+   margin-top: 100px;
+}
+#email{
+   margin-left: 55px;}
+   .save{
+      width: 150px;
+      height: 40px;
+      background-color: #DADD98;
+      border: 0;
+      outline: none;
+      border-radius: 15px;
+      text-align: center;
+      color: black;
+      font-weight: bold;
+      border:none;
+      margin-left: 200px;
+   }
+
+ 
