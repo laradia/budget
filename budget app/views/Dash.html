@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="css\Dash.css" />
+  </head>
+  <body>
+    
+    <div class="menu">
+        
+        <h1 class="logo">BUDGETT</h1>
+       <a href="/profile"> <button class="btn_profile"><i class="fas fa-user-circle"></i></button></a>
+       
+        <button class="btn_chart"><i class="fa fa-line-chart"></i></button>
+        <a href="/logout"><button class="out"> log out</button>   </a>
+    </div>
+   
+   
+    <h1>Hello , {{nom}}!</h1>
+    <div class="wrapper">
+      <div class="container">
+        <div class="sub-container">
+          
+          <div class="total-amount-container">
+            <h3>Budget</h3>
+            <p class="hide error" id="budget-error">
+              Value cannot be empty or negative
+            </p>
+            <input
+              type="number"
+              id="total-amount"
+              placeholder="Total Amount"
+            />
+            <button class="submit" id="total-amount-button">Set Budget</button>
+          </div>
+
+         
+          <div class="user-amount-container">
+            <form action="/create_dep" method="post">
+            <h3>Expenses</h3>
+            <p class="hide error" id="product-title-error">
+              Values cannot be empty
+            </p>
+            
+            <input
+              type="text"
+              class="product-title"
+              id="type_dep"
+              placeholder="expense type"
+            />
+            <input
+              type="number"
+              id="mt_dep"
+              placeholder=" Cost "
+            />
+            <button class="submit" id="check-amount">Check </button>
+          </form>
+          </div>
+        </div>
+        
+        <div class="output-container flex-space">
+          <div>
+            <p>Total Budget</p>
+            <span id="amount">0</span>
+          </div>
+          <div>
+            
+            <p>Expenses</p>
+            <span id="expenditure-value">0</span>
+          </div>
+        
+          <div>
+            <p>Balance</p>
+            <span id="balance-amount">0</span>
+          </div>
+        </div>
+      </div>
+    
+      <div class="list">
+        <h3>Expense List</h3>
+        <div class="list-container" id="list"></div>
+      </div>
+    </div>
+    
+    <script src="js\budget.js"></script> 
+  </body>
+</html>

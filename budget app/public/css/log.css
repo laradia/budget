@@ -1,0 +1,66 @@
+section{
+
+    display:flex;
+    height: 800px;
+    width: 1500px;
+
+    position: relative;
+}
+* {
+   
+    font-family: "Poppins", sans-serif;
+  }
+form{
+
+   
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    
+    margin: 0;
+    padding: 0;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+ .image{
+    position:relative;
+    width: 800px;;
+   
+    
+   
+    
+}
+input{
+
+    width: 350px;
+    height: 50px;
+    border-radius: 8px;
+    border:none;
+}
+.formulaire{
+   width: 900px;
+   background: rgb(252,240,240);
+   background: linear-gradient(0deg, rgba(252,240,240,1) 0%, rgba(240,248,252,1) 100%);
+   align-items: center;
+   height: 100%;
+   margin-top: 0px;
+   
+}
+.log_button{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border:none;
+    
+}
+hr{
+    width: 700px;
+    
+}
